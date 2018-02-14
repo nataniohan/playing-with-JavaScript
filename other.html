@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<script>
+	function face(){
+		document.getElementById("face").src = "imagem/2.jpg";
+	}
+	function other(){
+		document.getElementById("face").src = "imagem/1.jpg";
+	}
+</script>
+<body>
+<center>
+	<img src="imagem/1.jpg" id="face" onmouseover="face()" onmouseout="other()" />
+</center>
+</body>
+</html>
